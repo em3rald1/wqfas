@@ -1,0 +1,9 @@
+BITS >= 8
+MINREGS >= 4
+MINRAM <= 100
+
+IMM r1 5
+MOV r1 r2
+ADD r3 r1 r2
+
+HLT
